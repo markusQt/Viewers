@@ -13,5 +13,11 @@ namespace YoutubeViewer
     /// </summary>
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            MainWindow _MainWindow = new MainWindow();
+            _MainWindow.Show();
+            base.OnStartup(e);
+        }
     }
 }

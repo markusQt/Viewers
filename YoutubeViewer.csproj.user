@@ -7,7 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Components\YoutubeViewersDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Components\YoutubeViewersListing.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\YoutubeViewersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Components\YoutubeViewersDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Components\YoutubeViewersListing.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\YoutubeViewersView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
